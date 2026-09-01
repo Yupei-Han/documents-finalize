@@ -1,0 +1,8 @@
+interface:
+  display_name: "Documents Finalize"
+  short_description: "Independently audit and release final DOCX files"
+  brand_color: "#1D4ED8"
+  default_prompt: "Use $documents-finalize to independently audit this DOCX and release it only after every applicable structural, content, and page-by-page visual gate passes."
+
+policy:
+  allow_implicit_invocation: true
